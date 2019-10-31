@@ -8,6 +8,6 @@ COPY content /flaskapp
 WORKDIR /flaskapp
 RUN pip3 install -r requirements.txt
 EXPOSE 5000
-CMD ["python","myproject.py"]
+CMD ["python3","myproject.py"]
 #ENTRYPOINT "./startup.sh"
 #CMD ["python","myproject.py"]
